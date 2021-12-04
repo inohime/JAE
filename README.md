@@ -18,6 +18,7 @@
 - [ ] Verbose Logging
 - [ ] C/C++ Single Header
 - [ ] CMake support
+
 **Core**
 - [ ] Multiple gamepad support
 - [ ] Keybinding 
