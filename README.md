@@ -1,5 +1,7 @@
 # JAE
-Just Another Engine, SDL2 game engine simplified for the end developer.
+![Example Image](example/assets/JAE_Test_Image.png)
+
+**Just Another Engine, an SDL2 game engine simplified for the end developer.**
 
 Dependencies: 
 - SDL2 2.0.16+ (soon 2.0.18)
