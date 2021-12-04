@@ -3,7 +3,8 @@
 
 **Just Another Engine, an SDL2 game engine simplified for the end developer.**
 
-*Still in Early Development*
+**Currently In Active Development**
+- Still in Early Development
 
 `Dependencies:`
 - SDL2 2.0.16+ (soon 2.0.18)
