@@ -1,0 +1,22 @@
+Hello! Thanks for checking out JAE! uwu
+
+This is a style guide for how things work/ are styled specifically in JAE & Hinode.
+-------------------
+
+1.) Private member variables are prefixed with underscores "_{variable-name}."
+
+2.) Aliases must be prefixed with "I" and held in the System namespace "I{typename}."
+	3A.) Do not add it to the sharedtypes.hpp file unless the entire engine utilizes it or it's a core type.
+
+3.) Function Arguments/Parameters are camelCased "StudentName(char *firstName, char *lastName);"
+
+4.) Function names are PascalCased "SetStudentGPA(int gpa)."
+	A.) If the function name contains an abbreviation ("FBI", "GPA", "IDE") it must always be capitalized.
+
+5.) Function names must stay simple, ALWAYS.
+	A.) Extensions of the engine are not subject to this rule unless applied to the core.
+
+6.) Curly braces start on the (declaration/definition)'s first line.
+
+7.) Implementation defined headers are included first (<>), local directory headers are included after ("").
+	A.) SDL headers are excluded from this.
