@@ -72,6 +72,7 @@ namespace System {
 
   class Input {
   public:
+    Input() = default;
     ///
     void OpenInput();
     void CloseInput() const;
