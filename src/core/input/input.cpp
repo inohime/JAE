@@ -5,7 +5,14 @@
 namespace System {
 
   void Input::OpenInput() {
-    _controller = SDL_JoystickOpen(0);
+   // _controller = SDL_JoystickOpen(0);
+    for (int i = 0; i < SDL_NumJoysticks(); ++i) {
+     if (SDL_IsGameController(i)) {
+        _controller = SDL_GameControllerOpen(i);
+     } else {
+       std::cout << "Failed to open game controller: %i" << i << SDL_GetError() << "\n";
+     }
+    }
 
     // assertions
     assert(SDL_NumJoysticks() > 0);
@@ -15,7 +22,12 @@ namespace System {
   }
 
   void Input::CloseInput() const {
-    SDL_JoystickClose(_controller);
+    //SDL_JoystickClose(_controller);
+    for (int i = 0; i < SDL_NumJoysticks(); ++i) {
+      if (SDL_IsGameController(i)) {
+        //_controller = SDL_GameControllerClose(i);
+      }
+    }
     if (!_controller) {
       std::cout << "Closed controller \n";
     }

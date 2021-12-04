@@ -20,7 +20,10 @@ namespace System {
   using IWindow = SDL_Window;
   using IRenderer = SDL_Renderer;
   using IRendererFlip = SDL_RendererFlip;
-  using IKey = SDL_KeyCode;
   using IPoint = SDL_Point;
   using IEvent = SDL_Event;
+  using IKey = SDL_KeyCode;
+  using IController = SDL_GameController;
+  using IJoystick = SDL_Joystick;
+  using IJoystickID = SDL_JoystickID;
 } // namespace System

@@ -86,14 +86,14 @@ namespace System {
     bool MouseButtonDown(uint32_t button) noexcept;
     bool MouseButtonReleased(uint32_t button) noexcept;
     // gamepad
-    void JoySetDeadZone(Sint32 sensitivity);
-    void JoyGetDeadZone(SDL_JoystickID id, Sint16 sensitivity) noexcept;
+    void JoySetDeadZone(IJoystickID id, Sint16 sensitivity);
+    void JoyGetDeadZone(IJoystickID id) noexcept;
     // input update
     void Update() const noexcept;
 
   private:
     std::array<KeyState, 512> _keyStates;
     std::unordered_map<Keys, IKey> _keyBind;
-    SDL_Joystick *_controller; // make this an array to open several controllers
+    IController *_controller;
   };
 } // namespace System
