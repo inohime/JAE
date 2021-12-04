@@ -4,12 +4,15 @@
 
 namespace System {
   void Event::HandleEvents() {
+    /*
     bool quit = false;
     while (!quit) {
       while (SDL_PollEvent(&_ev) != 0) {
         switch (_ev.type) {}
+        
       }
     }
+    */
   }
 
   // FOR BELOW

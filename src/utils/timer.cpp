@@ -2,8 +2,7 @@
 
 namespace System {
   namespace Utility {
-    Timer::Timer() : _baseTicks(), _deltaTime(0.0f), _timeState(1) {
-      _stopTicks = steady_clock::now();
+    Timer::Timer() : _baseTicks(), _stopTicks(steady_clock::now()), _deltaTime(0.0f), _timeState(1) {
       SDL_Delay(1); // terrible hack
       Start();
       Update();

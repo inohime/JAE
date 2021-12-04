@@ -33,7 +33,7 @@ namespace System {
 
     template<typename T>
     inline static T *LoadAudio(const std::string_view &fileName) {
-      T *sound;
+      T *sound = nullptr;
       if constexpr (std::is_same_v<T, IMMusic>) {
         sound = Mix_LoadMUS(fileName.data());
         if (!fileName.data()) {

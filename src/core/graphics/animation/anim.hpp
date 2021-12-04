@@ -11,6 +11,8 @@
 namespace System {
   class Animation {
   public:
+    Animation();
+    ~Animation();
     void Update(double deltaTime) noexcept;
 
   private:
