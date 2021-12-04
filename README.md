@@ -1,5 +1,8 @@
 
 # Just Another Engine
+
+[![Codacy](https://app.codacy.com/project/badge/Grade/67346cc33a5e479495c5f9d87cd29cde)](https://www.codacy.com/gh/inohime/JAE/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=inohime/JAE&amp;utm_campaign=Badge_Grade)
+
 ![Example Image](example/assets/JAE_Test_Image.png)
 
 ## Currently In Active Development
