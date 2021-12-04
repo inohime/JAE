@@ -37,12 +37,10 @@ int main(int argc, char *argv[])
     std::vector<IRect> mayClip;
     mayClip.push_back({21, 161, 28, 40});
     mayClip.push_back({129, 232, 28, 40});
-    //mayClip.push_back({91, 57, 28, 40});
     ITexture *bg = Graphics::LoadTexture("assets/CloudsFront.png");
     ITexture *msgTex = Graphics::LoadText("Hello JAE!", msgStr, {0xFF, 0xFF, 0xFF, 0xFF}, 58);
     ITexture *may = Graphics::LoadTexture("assets/PK_MAY.png");
-    // 21, 161, 28, 40 // may1
-    // 91, 57, 28, 40 // may3
+
     // Change the viewport scale
     g->SetViewportSize(512, 385);
     
