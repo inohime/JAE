@@ -1,7 +1,7 @@
 # JAE
 ![Example Image](example/assets/JAE_Test_Image.png)
 
-**Just Another Engine, an SDL2 game engine simplified for the end developer.**
+**Just Another Engine, A cross-platform SDL2 game engine simplified for the end developer.**
 
 **Currently In Active Development**
 - Still in Early Development
