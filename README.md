@@ -24,6 +24,7 @@
   - [ ] Multiple gamepad support
   - [ ] Keybinding 
   - [ ] ImGui
+  - [ ] Emscripten
   - [ ] A smile on your face
 
 `Examples to be added:`
