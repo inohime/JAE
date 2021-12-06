@@ -23,7 +23,7 @@
   - [ ] CMake support
   - [ ] Multiple gamepad support
   - [ ] Keybinding 
-  - [ ] ImGui
+  - [x] ImGui
   - [ ] Emscripten
   - [ ] A smile on your face
 
