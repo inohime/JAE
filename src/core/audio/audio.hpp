@@ -17,11 +17,15 @@ namespace System {
   class Audio {
   public:
     void OpenAudio();
+
     void CloseAudio() const;
+
     // To restart the audio device
     void ReopenAudio();
+
     int SetVolume(int volume) noexcept;
 
+    // change to T GetAudioData()
     static void GetMusicData() noexcept;
     static void GetChunkData() noexcept; 
     

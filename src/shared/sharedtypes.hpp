@@ -12,11 +12,12 @@
 #pragma clang diagnostic ignored "-Wuninitialized"
 
 namespace System {
-  using namespace std::chrono;
+  using namespace std::chrono; // to be removed
   using ITexture = SDL_Texture;
   using ISurface = SDL_Surface;
   using IColor = SDL_Color;
   using IRect = SDL_Rect;
+  using IVertex = SDL_Vertex;
   using IWindow = SDL_Window;
   using IRenderer = SDL_Renderer;
   using IRendererFlip = SDL_RendererFlip;

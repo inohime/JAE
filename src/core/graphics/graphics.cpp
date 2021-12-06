@@ -18,8 +18,8 @@ namespace System {
   }
 
   int Graphics::DrawCircleF(IRenderer *ren, const vec2i &val, int radius, const IColor &col) noexcept {
-      // 125 microseconds @ 10 draw calls
-      // replace with SDL_RenderGeometry
+    // 125 microseconds @ 10 draw calls
+    // replace with SDL_RenderGeometry
     int offsetx, offsety, d;
     int status;
 
@@ -88,8 +88,8 @@ namespace System {
     SDL_RenderCopy(Video::VR().get(), tex, clip, &dst);
   }
 
-  void Graphics::DrawTexture(ITexture *tex, const vec2i &val, IRect *clip, double angle,
-                            IPoint *center, IRendererFlip flip) {
+  void Graphics::DrawTexture(ITexture *tex, const vec2i &val, IRect *clip, double angle, IPoint *center,
+                             IRendererFlip flip) {
     IRect dst {};
     dst.x = val.x;
     dst.y = val.y;
@@ -103,8 +103,8 @@ namespace System {
     SDL_RenderCopyEx(Video::VR().get(), tex, clip, &dst, angle, center, flip);
   }
 
-  ITexture *Graphics::LoadText(const std::string_view &msg, const std::string_view &fontFile,
-                                 const IColor &col, int fontSize) {
+  ITexture *Graphics::LoadText(const std::string_view &msg, const std::string_view &fontFile, const IColor &col,
+                               int fontSize) {
     TTF_Font *font = TTF_OpenFont(fontFile.data(), fontSize);
     if (font == nullptr) {
       std::cout << "TTF_OpenFont error " << TTF_GetError() << "\n";
@@ -130,9 +130,9 @@ namespace System {
   }
 
   float Graphics::SetRGBA(const Object &obj, IColor &col) noexcept {
-   // std::get<1>(obj.type);
+    // std::get<1>(obj.type);
     // change std::get<(num)>(obj.type) to obj.type(T args)
-      return 0;
+    return 0;
   }
 
   float Graphics::SetHSL(const Object &obj, IColor &col) noexcept {

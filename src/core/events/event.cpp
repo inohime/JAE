@@ -9,7 +9,7 @@ namespace System {
     while (!quit) {
       while (SDL_PollEvent(&_ev) != 0) {
         switch (_ev.type) {}
-        
+
       }
     }
     */

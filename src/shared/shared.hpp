@@ -18,3 +18,6 @@
 #include "../core/graphics/graphics.hpp"
 #include "../core/input/input.hpp"
 #include "../core/video/video.hpp"
+#include "../imgui/imgui.h"
+#include "../imgui/imgui_impl_sdl.h"
+#include "../imgui/imgui_impl_sdlrenderer.h"

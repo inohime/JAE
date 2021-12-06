@@ -9,8 +9,9 @@ namespace System {
   System::Video::Video(const std::string_view &title, uint32_t width, uint32_t height, uint32_t flags) {
     assert(SDL_Init(SDL_INIT_EVERYTHING) == 0);
 
-    _window = std::shared_ptr<IWindow>(SDL_CreateWindow(title.data(), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height, flags), 
-                                          SDL_DestroyWindow);
+    _window = std::shared_ptr<IWindow>(
+        SDL_CreateWindow(title.data(), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height, flags),
+        SDL_DestroyWindow);
 
     if (!_window) {
       _window = nullptr;
@@ -23,7 +24,7 @@ namespace System {
     }
 
     _renderer = std::shared_ptr<IRenderer>(SDL_CreateRenderer(_window.get(), -1, SDL_RENDERER_ACCELERATED),
-                                          SDL_DestroyRenderer);
+                                           SDL_DestroyRenderer);
 
     if (!_renderer) {
       // if (Graphics::RecreateRenderer() != 0)
@@ -46,4 +47,3 @@ namespace System {
     return _renderer;
   }
 } // namespace System
-

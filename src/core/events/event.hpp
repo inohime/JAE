@@ -6,19 +6,19 @@
 
 #include "../../shared/sharedtypes.hpp"
 
- namespace System {
-  struct Event {
-   public:
+namespace System {
+  class Event {
+  public:
     void HandleEvents();
     // user must request PollEvent or WaitEvent from application start
     int SetPollEvent(IEvent *ev);
     int SetWaitEvent(IEvent *ev);
 
-     /**
-     ** send whatever event the user wants
-     ** should easily integrate into the HandleEvents
+    /**
+    ** send whatever event the user wants
+    ** should easily integrate into the HandleEvents
     **/
-    template <typename T>
+    template<typename T>
     inline void AddEvent(T *ev) {
     }
 
