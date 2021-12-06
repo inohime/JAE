@@ -1,4 +1,5 @@
 
+deps/SDL2/docs/README-riscos.md
 deps/SDL2/docs/README-linux.md
 deps/SDL2/docs/README-macosx.md
 deps/SDL2/docs/README-nacl.md
@@ -104,6 +105,7 @@ deps/SDL2/include/SDL_types.h
 deps/SDL2/include/SDL_version.h
 deps/SDL2/include/SDL_video.h
 deps/SDL2/include/SDL_vulkan.h
+deps/SDL2/include/SDL_hidapi.h
 deps/SDL2/lib/x64/SDL2.dll
 deps/SDL2/lib/x64/SDL2.lib
 deps/SDL2/lib/x64/SDL2main.lib

@@ -8,6 +8,8 @@
 
 namespace Example {
   struct Shapes {
+    Shapes() = default;
+
     // create shapes to draw (triangle, circle, polygon, square)
     static void CreateShape(System::IRenderer *ren, System::ITexture *tex, const System::IVertex *vert, int num_vert,
                             const int *indices, int num_indicies) noexcept;

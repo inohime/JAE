@@ -71,6 +71,6 @@
         "optional": "cpp",
         "xlocbuf": "cpp",
         "xlocmes": "cpp"
-    },
+    }
     //"editor.formatOnSave": true,
 }
