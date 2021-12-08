@@ -8,6 +8,15 @@
 ## Currently In Active Development
   - Non-production beta builds released frequently
 
+## How-to-Build
+  This project utilizes Makefile (change to CMake later)
+  To build a fresh project, please follow the following:
+  1. `mkdir build && cd build`
+  2. `cd .. && make`
+  3. Put all /x64/ dlls into the build folder (excluding optional)
+  **required**: all dependencies not labled optional put into deps.
+  
+
 `Dependencies:`
   - SDL2 2.0.16+ (soon 2.0.18)
   - SDL_Mixer 2.0.4
@@ -20,7 +29,6 @@
   - [ ] Scripting ([WREN](https://www.wren.io))
   - [ ] Verbose Logging
   - [ ] C/C++ Single Header
-  - [ ] CMake support
   - [ ] Multiple gamepad support
   - [ ] Keybinding 
   - [ ] ImGui
