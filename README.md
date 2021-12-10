@@ -14,6 +14,7 @@
   1. `mkdir build && cd build`
   2. `cd .. && make`
   3. Put all /x64/ dlls into the build folder (excluding optional)
+  
   **required**: all dependencies not labled optional put into deps.
   
 
