@@ -34,6 +34,7 @@
   - [ ] Keybinding 
   - [ ] ImGui
   - [ ] Emscripten
+  - [ ] Collider types (box & circle)
   - [ ] A smile on your face
 
 `Examples to be added:`
