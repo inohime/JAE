@@ -58,7 +58,7 @@
 int main(int argc, char* argv[]) 
 {
   JAE->Init(title, width, height, flags);
-  ITexture sprite = JAE->Graphics.LoadTexture<ITexture>(filePath);
+  ITexture sprite = JAE->Graphics.LoadTexture(filePath);
   // events are handled before rendering
   JAE->Graphics.SetupRenderer(r, g, b, a);
   JAE->Graphics.DrawTexture(texture, x, y, clip);
