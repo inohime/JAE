@@ -48,3 +48,19 @@
   - [ ] Animations
   - [ ] Map (loading & animations)
   - [ ] Hinode (A game being built on top of JAE)
+
+`End goal example`
+```c++
+#include "JAE.hpp" // contains shared types & headers
+
+int main(int argc, char* argv[]) 
+{
+  JAE->Init(title, width, height, flags);
+  ITexture sprite = JAE->Graphics.LoadTexture<ITexture>(filePath);
+  // events are handled before rendering
+  JAE->Graphics.SetupRenderer(R, G, B, A);
+  JAE->Graphics.DrawTexture(texture, x, y, clip);
+  JAE->Graphics.Present();
+  return 0;
+}
+```
