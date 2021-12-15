@@ -50,6 +50,8 @@
   - [ ] Hinode (A game being built on top of JAE)
 
 `End goal example`
+ > key things to note:
+  - Time would already be handled, you would get deltaTime using `JAE->Timer.DeltaTime()`
 ```c++
 #include "JAE.hpp" // contains shared types & headers
 
