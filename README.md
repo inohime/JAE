@@ -46,5 +46,4 @@
   - [ ] Additional Events
   - [ ] Audio (loading, playing, altering (audio data & volume) 
   - [ ] Animations
-  - [ ] Map (loading & animations)
   - [ ] Hinode (A game being built on top of JAE)
