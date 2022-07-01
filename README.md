@@ -19,19 +19,19 @@
   
 
 `Dependencies:`
-  - SDL2 2.0.16+ (soon 2.0.20)
+  - SDL2 2.0.22 
   - SDL_Mixer 2.0.4
-  - SDL_TTF 2.0.15
+  - SDL_TTF 2.0.18
   - SDL_Image 2.0.5
 
 `Features to be added:`
   - [ ] Entity Component System
   - [ ] Scripting ([WREN](https://www.wren.io))
-  - [ ] Verbose Logging
+  - [X] Verbose Logging
   - [ ] Multiple gamepad support
-  - [ ] ImGui
+  - [X] Nuklear
   - [ ] Emscripten
-  - [ ] Tiled Maps
+  - [X] Tiled Maps
   - [ ] C89 support
   - [ ] A smile on your face
 
