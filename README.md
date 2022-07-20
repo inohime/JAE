@@ -25,6 +25,7 @@
   - SDL_Image 2.0.5
 
 `Features to be added:`
+  - [ ] Editor
   - [ ] Entity Component System
   - [ ] Scripting ([WREN](https://www.wren.io))
   - [X] Verbose Logging
