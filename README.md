@@ -5,8 +5,8 @@
 
 ![Example Image](example/assets/JAE_Test_Image.png)
 
-## Currently In Active Development
-  - Non-production beta builds released infrequently
+## Development Currently On Hold
+  - Non-production beta builds paused indefinitely
 
 ## How-to-Build
   This project utilizes Makefile (change to CMake later)
